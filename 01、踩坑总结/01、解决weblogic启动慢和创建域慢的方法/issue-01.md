@@ -1,5 +1,5 @@
 <code>
-<strong>解决weblogic启动慢和创建域慢的方法</strong>
+<h1>解决weblogic启动慢和创建域慢的方法</h1>
 
     创建域慢启动慢的特征：创建域到70%时，进程长时间等待（命令行创建时停止在100%处），创建域启动Weblogic的时候也是长时间停止。 
     Weblogic在Linux下启动慢的原因，发现从进程堆来看，线程挂在security相关的随机数生成上面，是由于JDK的Bug(JDK从/dev/random读取‘randomness’经常耗费10分钟或者更长的时间)。
