@@ -1,5 +1,5 @@
 <code>
-<strong>linux使用alternatives切换JavaVersion</strong>
+<h1>linux使用alternatives切换JavaVersion</h1>
 
 
     执行alertactives --config java
