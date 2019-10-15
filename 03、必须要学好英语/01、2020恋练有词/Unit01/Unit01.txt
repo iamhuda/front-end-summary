@@ -13,8 +13,14 @@ n.统计数值
 a.统计的、统计学的
 
 statistical
+a.统计的、统计学的
+
 stationary
+a.固定的、静止的、不动的
+
 statement
+
+
 understatement
 overstate
 statesman
