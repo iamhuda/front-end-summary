@@ -19,10 +19,13 @@ stationary
 a.固定的、静止的、不动的
 
 statement
-
+n.（正式或明确的口头或书面）陈述、声明、（意见或观点的）表现、表达
 
 understatement
+n.保守陈述、不充分的陈述、轻描淡写
+
 overstate
+
 statesman
 estate
 devastate
