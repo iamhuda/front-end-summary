@@ -1,0 +1,18 @@
+在eclipse中使用搜索功能的时候，
+eclipse中的搜索功能。Ctrl+H呼出。 
+发生如下错误：
+
+"File Search" has encounter a problem
+
+错误日志（Error Log）是：   .......Resource is out of sync with the file system
+
+ 
+原因是：eclipse中的文件和workspace中文件不一致。（在workspace中修改了某个源文件但是没有刷新）
+
+解决方法：
+
+方法1：  在工程目录右键 Refresh
+
+方法2:  设置eclipse自动刷新（Window->Preferences->General->Workspace，选中Refresh automatically）
+
+最好使用方法1，方法2设置为自动刷新可能会很卡
