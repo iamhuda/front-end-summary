@@ -1,0 +1,7 @@
+右键： Run As --> Run Configurations
+
+找到common项，在“Encoding”栏，看到当前用的是默认“UTF-8”编码方式
+
+设置成“GBK”，不区分大小写
+
+点击“Run”，显示正常
