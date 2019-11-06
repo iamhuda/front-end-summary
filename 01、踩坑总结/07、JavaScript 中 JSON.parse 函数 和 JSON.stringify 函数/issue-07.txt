@@ -1,0 +1,4 @@
+ 
+ JSON.parse 函数: 使用 JSON.parse 可将 JSON 字符串转换成对象。
+ 
+ JSON.stringify 函数:  可将 JavaScript 对象转换为Json表示字符串。
