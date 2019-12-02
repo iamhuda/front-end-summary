@@ -1,0 +1,3 @@
+#JSON中的get和opt方法的区别：
+
+不想抛异常，不适用try{}catch，请适用opt方法；相反，使用get方法，会抛异常，需要try一下。
