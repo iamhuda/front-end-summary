@@ -1,0 +1,11 @@
+Js报错 Uncaught TypeError: Cannot read property 'appendChild' of null 
+
+突然之间发现这个错误，可能以前也没怎么注意过，然后找到了问题，记录一下。
+
+通过查找原因发现是由于获取不到插入的节点
+
+出现这种情况的原因：获取节点时，节点还没加载
+
+如：js写在head里面，取body里面的某一节点，这时候是取不到的。
+
+解决方法：把JS代码放到</body>后面。
